@@ -38,9 +38,10 @@ namespace FastFood
             // 
             // btnRes1
             // 
-            this.btnRes1.Location = new System.Drawing.Point(81, 60);
+            this.btnRes1.Location = new System.Drawing.Point(85, 68);
+            this.btnRes1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRes1.Name = "btnRes1";
-            this.btnRes1.Size = new System.Drawing.Size(151, 45);
+            this.btnRes1.Size = new System.Drawing.Size(113, 37);
             this.btnRes1.TabIndex = 0;
             this.btnRes1.Text = "Restoran 1";
             this.btnRes1.UseVisualStyleBackColor = true;
@@ -48,9 +49,10 @@ namespace FastFood
             // 
             // btnRes2
             // 
-            this.btnRes2.Location = new System.Drawing.Point(81, 133);
+            this.btnRes2.Location = new System.Drawing.Point(85, 127);
+            this.btnRes2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRes2.Name = "btnRes2";
-            this.btnRes2.Size = new System.Drawing.Size(151, 45);
+            this.btnRes2.Size = new System.Drawing.Size(113, 37);
             this.btnRes2.TabIndex = 1;
             this.btnRes2.Text = "Restoran 2";
             this.btnRes2.UseVisualStyleBackColor = true;
@@ -58,9 +60,10 @@ namespace FastFood
             // 
             // btnRes3
             // 
-            this.btnRes3.Location = new System.Drawing.Point(81, 210);
+            this.btnRes3.Location = new System.Drawing.Point(85, 190);
+            this.btnRes3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRes3.Name = "btnRes3";
-            this.btnRes3.Size = new System.Drawing.Size(151, 45);
+            this.btnRes3.Size = new System.Drawing.Size(113, 37);
             this.btnRes3.TabIndex = 2;
             this.btnRes3.Text = "Restoran 3";
             this.btnRes3.UseVisualStyleBackColor = true;
@@ -68,9 +71,10 @@ namespace FastFood
             // 
             // btnRes4
             // 
-            this.btnRes4.Location = new System.Drawing.Point(81, 291);
+            this.btnRes4.Location = new System.Drawing.Point(85, 255);
+            this.btnRes4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRes4.Name = "btnRes4";
-            this.btnRes4.Size = new System.Drawing.Size(151, 45);
+            this.btnRes4.Size = new System.Drawing.Size(113, 37);
             this.btnRes4.TabIndex = 3;
             this.btnRes4.Text = "Restoran 4";
             this.btnRes4.UseVisualStyleBackColor = true;
@@ -78,25 +82,27 @@ namespace FastFood
             // 
             // btnNaruci
             // 
-            this.btnNaruci.Location = new System.Drawing.Point(576, 173);
+            this.btnNaruci.Location = new System.Drawing.Point(97, 333);
+            this.btnNaruci.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNaruci.Name = "btnNaruci";
-            this.btnNaruci.Size = new System.Drawing.Size(114, 40);
+            this.btnNaruci.Size = new System.Drawing.Size(86, 32);
             this.btnNaruci.TabIndex = 5;
             this.btnNaruci.Text = "Naruči!";
             this.btnNaruci.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(285, 439);
             this.Controls.Add(this.btnNaruci);
             this.Controls.Add(this.btnRes4);
             this.Controls.Add(this.btnRes3);
             this.Controls.Add(this.btnRes2);
             this.Controls.Add(this.btnRes1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Fast Food";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 

@@ -22,11 +22,11 @@ namespace FastFood
 
         private void btnHamb_Click(object sender, EventArgs e)
         {
-            string s = "Hamburger ";
+            string s = "Hamburger\n";
             List<string> listaHamb = checkedListBox1.CheckedItems.OfType<string>().ToList();
             foreach (string el in listaHamb)
             {
-                s += el + " ";
+                s += el + "\n";
             }
             res1.Add(s);
             checkedListBox1.ClearSelected();
@@ -34,41 +34,41 @@ namespace FastFood
 
         private void btnCheese_Click(object sender, EventArgs e)
         {
-            string s = "Cheese ";
-            List<string> listaCheese = checkedListBox1.CheckedItems.OfType<string>().ToList();
+            string s = "Cheeseburger\n";
+            List<string> listaCheese = checkedListBox2.CheckedItems.OfType<string>().ToList();
             foreach (string el in listaCheese)
             {
-                s += el + " ";
+                s += el + "\n";
             }
             res1.Add(s);
-            checkedListBox1.ClearSelected();
+            checkedListBox2.ClearSelected();
         }
 
         private void btnPomes_Click(object sender, EventArgs e)
         {
-            string s = "Pommes ";
-            List<string> listaCheese = checkedListBox1.CheckedItems.OfType<string>().ToList();
+            string s = "Pommes frites\n";
+            List<string> listaCheese = checkedListBox3.CheckedItems.OfType<string>().ToList();
             foreach (string el in listaCheese)
             {
-                s += el + " ";
+                s += el + "\n";
             }
             res1.Add(s);
-            checkedListBox1.ClearSelected();
+            checkedListBox3.ClearSelected();
         }
 
         private void btnSok_Click(object sender, EventArgs e)
         {
-            res1.Add("Sok");
+            res1.Add("\nSok");
         }
 
         private void Voda_Click(object sender, EventArgs e)
         {
-            res1.Add("Voda");
+            res1.Add("\nVoda");
         }
 
         private void btnPiva_Click(object sender, EventArgs e)
         {
-            res1.Add("Piva");
+            res1.Add("\nPivo");
         }
 
         private void btnJosRest_Click(object sender, EventArgs e)
@@ -83,7 +83,7 @@ namespace FastFood
            
             foreach (string el in res1)
             {
-                zavrsna.richTextBox1.Text += el + " ";
+                zavrsna.richTextBox1.Text += el + "\n";
             }
             this.Close();
             zavrsna.Show();

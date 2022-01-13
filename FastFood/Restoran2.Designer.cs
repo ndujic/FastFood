@@ -48,27 +48,30 @@ namespace FastFood
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(333, 34);
+            this.label1.Location = new System.Drawing.Point(266, 32);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 17);
+            this.label1.Size = new System.Drawing.Size(56, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Restoran2";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(93, 100);
+            this.label2.Location = new System.Drawing.Point(43, 69);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 17);
+            this.label2.Size = new System.Drawing.Size(36, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Hrana";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(629, 100);
+            this.label3.Location = new System.Drawing.Point(460, 69);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 17);
+            this.label3.Size = new System.Drawing.Size(28, 13);
             this.label3.TabIndex = 3;
             this.label3.Text = "Piće";
             // 
@@ -78,9 +81,10 @@ namespace FastFood
             this.checkedListBox3.Items.AddRange(new object[] {
             "Ketchup",
             "Majoneza"});
-            this.checkedListBox3.Location = new System.Drawing.Point(382, 187);
+            this.checkedListBox3.Location = new System.Drawing.Point(295, 150);
+            this.checkedListBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkedListBox3.Name = "checkedListBox3";
-            this.checkedListBox3.Size = new System.Drawing.Size(98, 89);
+            this.checkedListBox3.Size = new System.Drawing.Size(87, 64);
             this.checkedListBox3.TabIndex = 24;
             // 
             // checkedListBox2
@@ -90,9 +94,10 @@ namespace FastFood
             "Ketchup",
             "Majoneza",
             "Salata"});
-            this.checkedListBox2.Location = new System.Drawing.Point(233, 185);
+            this.checkedListBox2.Location = new System.Drawing.Point(169, 150);
+            this.checkedListBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(98, 89);
+            this.checkedListBox2.Size = new System.Drawing.Size(87, 64);
             this.checkedListBox2.TabIndex = 23;
             // 
             // checkedListBox1
@@ -102,26 +107,29 @@ namespace FastFood
             "Ketchup",
             "Majoneza",
             "Salata"});
-            this.checkedListBox1.Location = new System.Drawing.Point(96, 185);
+            this.checkedListBox1.Location = new System.Drawing.Point(48, 150);
+            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(98, 89);
+            this.checkedListBox1.Size = new System.Drawing.Size(85, 64);
             this.checkedListBox1.TabIndex = 22;
             // 
             // btnPiva
             // 
-            this.btnPiva.Location = new System.Drawing.Point(629, 290);
+            this.btnPiva.Location = new System.Drawing.Point(463, 189);
+            this.btnPiva.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnPiva.Name = "btnPiva";
-            this.btnPiva.Size = new System.Drawing.Size(75, 23);
+            this.btnPiva.Size = new System.Drawing.Size(87, 25);
             this.btnPiva.TabIndex = 21;
-            this.btnPiva.Text = "Piva";
+            this.btnPiva.Text = "Pivo";
             this.btnPiva.UseVisualStyleBackColor = true;
             this.btnPiva.Click += new System.EventHandler(this.btnPiva_Click);
             // 
             // Voda
             // 
-            this.Voda.Location = new System.Drawing.Point(629, 211);
+            this.Voda.Location = new System.Drawing.Point(463, 150);
+            this.Voda.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Voda.Name = "Voda";
-            this.Voda.Size = new System.Drawing.Size(75, 23);
+            this.Voda.Size = new System.Drawing.Size(87, 25);
             this.Voda.TabIndex = 20;
             this.Voda.Text = "Voda";
             this.Voda.UseVisualStyleBackColor = true;
@@ -129,9 +137,10 @@ namespace FastFood
             // 
             // btnSok
             // 
-            this.btnSok.Location = new System.Drawing.Point(629, 137);
+            this.btnSok.Location = new System.Drawing.Point(463, 114);
+            this.btnSok.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSok.Name = "btnSok";
-            this.btnSok.Size = new System.Drawing.Size(75, 23);
+            this.btnSok.Size = new System.Drawing.Size(87, 25);
             this.btnSok.TabIndex = 19;
             this.btnSok.Text = "Sok";
             this.btnSok.UseVisualStyleBackColor = true;
@@ -139,9 +148,10 @@ namespace FastFood
             // 
             // btnPomes
             // 
-            this.btnPomes.Location = new System.Drawing.Point(374, 140);
+            this.btnPomes.Location = new System.Drawing.Point(295, 114);
+            this.btnPomes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnPomes.Name = "btnPomes";
-            this.btnPomes.Size = new System.Drawing.Size(98, 33);
+            this.btnPomes.Size = new System.Drawing.Size(87, 25);
             this.btnPomes.TabIndex = 18;
             this.btnPomes.Text = "Pommes frites";
             this.btnPomes.UseVisualStyleBackColor = true;
@@ -149,9 +159,10 @@ namespace FastFood
             // 
             // btnCheese
             // 
-            this.btnCheese.Location = new System.Drawing.Point(233, 140);
+            this.btnCheese.Location = new System.Drawing.Point(169, 114);
+            this.btnCheese.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCheese.Name = "btnCheese";
-            this.btnCheese.Size = new System.Drawing.Size(98, 28);
+            this.btnCheese.Size = new System.Drawing.Size(87, 25);
             this.btnCheese.TabIndex = 17;
             this.btnCheese.Text = "Cheeseburger";
             this.btnCheese.UseVisualStyleBackColor = true;
@@ -159,9 +170,10 @@ namespace FastFood
             // 
             // btnHamb
             // 
-            this.btnHamb.Location = new System.Drawing.Point(96, 137);
+            this.btnHamb.Location = new System.Drawing.Point(46, 111);
+            this.btnHamb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnHamb.Name = "btnHamb";
-            this.btnHamb.Size = new System.Drawing.Size(98, 31);
+            this.btnHamb.Size = new System.Drawing.Size(87, 25);
             this.btnHamb.TabIndex = 16;
             this.btnHamb.Text = "Hamburger";
             this.btnHamb.UseVisualStyleBackColor = true;
@@ -169,9 +181,10 @@ namespace FastFood
             // 
             // btnJosRest
             // 
-            this.btnJosRest.Location = new System.Drawing.Point(219, 312);
+            this.btnJosRest.Location = new System.Drawing.Point(169, 254);
+            this.btnJosRest.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnJosRest.Name = "btnJosRest";
-            this.btnJosRest.Size = new System.Drawing.Size(98, 52);
+            this.btnJosRest.Size = new System.Drawing.Size(74, 42);
             this.btnJosRest.TabIndex = 26;
             this.btnJosRest.Text = "Odaberi još restorana";
             this.btnJosRest.UseVisualStyleBackColor = true;
@@ -179,9 +192,10 @@ namespace FastFood
             // 
             // btnZavrsi
             // 
-            this.btnZavrsi.Location = new System.Drawing.Point(419, 312);
+            this.btnZavrsi.Location = new System.Drawing.Point(295, 254);
+            this.btnZavrsi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnZavrsi.Name = "btnZavrsi";
-            this.btnZavrsi.Size = new System.Drawing.Size(98, 52);
+            this.btnZavrsi.Size = new System.Drawing.Size(74, 42);
             this.btnZavrsi.TabIndex = 25;
             this.btnZavrsi.Text = "Završi narudžbu";
             this.btnZavrsi.UseVisualStyleBackColor = true;
@@ -189,9 +203,9 @@ namespace FastFood
             // 
             // Restoran2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.btnJosRest);
             this.Controls.Add(this.btnZavrsi);
             this.Controls.Add(this.checkedListBox3);
@@ -206,6 +220,7 @@ namespace FastFood
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Restoran2";
             this.Text = "Restoran2";
             this.ResumeLayout(false);

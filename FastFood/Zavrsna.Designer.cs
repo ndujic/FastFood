@@ -34,20 +34,23 @@ namespace FastFood
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(42, 29);
+            this.richTextBox1.Location = new System.Drawing.Point(38, 68);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(211, 298);
+            this.richTextBox1.Size = new System.Drawing.Size(201, 305);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // Zavrsna
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(285, 439);
             this.Controls.Add(this.richTextBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Zavrsna";
-            this.Text = "Zavrsna";
+            this.Text = "Narudžba";
             this.Load += new System.EventHandler(this.Zavrsna_Load);
             this.ResumeLayout(false);
 

@@ -32,7 +32,7 @@ namespace FastFood
             
             foreach (string el in res1)
             {
-                zavrsna.richTextBox1.Text += el + " ";
+                zavrsna.richTextBox1.Text += el + "\n";
             }
             this.Close();
             zavrsna.Show();
@@ -40,11 +40,11 @@ namespace FastFood
 
         private void btnHamb_Click(object sender, EventArgs e)
         {
-            string s = "Hamburger ";
+            string s = "Hamburger\n";
             List<string> listaHamb = checkedListBox1.CheckedItems.OfType<string>().ToList();
             foreach(string el in listaHamb)
             {
-                s += el + " ";
+                s += el + "\n";
             }
             res1.Add(s);
             checkedListBox1.ClearSelected();
@@ -59,41 +59,71 @@ namespace FastFood
 
         private void btnCheese_Click(object sender, EventArgs e)
         {
-            string s = "Cheeseburger ";
-            List<string> listaCheese = checkedListBox1.CheckedItems.OfType<string>().ToList();
+            string s = "Cheeseburger\n";
+            List<string> listaCheese = checkedListBox2.CheckedItems.OfType<string>().ToList();
             foreach (string el in listaCheese)
             {
-                s += el + " ";
+                s += el + "\n";
             }
             res1.Add(s);
-            checkedListBox1.ClearSelected();
+            checkedListBox2.ClearSelected();
         }
 
         private void btnPomes_Click(object sender, EventArgs e)
         {
-            string s = "Pommes ";
-            List<string> listaPommes = checkedListBox1.CheckedItems.OfType<string>().ToList();
+            string s = "Pommes frites\n";
+            List<string> listaPommes = checkedListBox3.CheckedItems.OfType<string>().ToList();
             foreach (string el in listaPommes)
             {
-                s += el + " ";
+                s += el + "\n";
             }
             res1.Add(s);
-            checkedListBox1.ClearSelected();
+            checkedListBox3.ClearSelected();
         }
 
         private void btnSok_Click(object sender, EventArgs e)
         {
-            res1.Add("Sok");
+            res1.Add("\nSok");
         }
 
         private void Voda_Click(object sender, EventArgs e)
         {
-            res1.Add("Piva");
+            res1.Add("\nVoda");
         }
 
         private void btnPiva_Click(object sender, EventArgs e)
         {
-            res1.Add("Piva");
+            res1.Add("\nPivo");
+        }
+
+        private void checkedListBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkedListBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
