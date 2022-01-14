@@ -46,38 +46,41 @@ namespace FastFood
             // 
             // btnHamb
             // 
-            this.btnHamb.Location = new System.Drawing.Point(36, 120);
+            this.btnHamb.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnHamb.Location = new System.Drawing.Point(44, 120);
             this.btnHamb.Name = "btnHamb";
             this.btnHamb.Size = new System.Drawing.Size(96, 23);
             this.btnHamb.TabIndex = 41;
             this.btnHamb.Text = "Hamburger";
-            this.btnHamb.UseVisualStyleBackColor = true;
+            this.btnHamb.UseVisualStyleBackColor = false;
             this.btnHamb.Click += new System.EventHandler(this.btnHamb_Click);
             // 
             // btnCheese
             // 
-            this.btnCheese.Location = new System.Drawing.Point(168, 120);
+            this.btnCheese.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnCheese.Location = new System.Drawing.Point(176, 120);
             this.btnCheese.Name = "btnCheese";
             this.btnCheese.Size = new System.Drawing.Size(96, 23);
             this.btnCheese.TabIndex = 42;
             this.btnCheese.Text = "Cheeseburger";
-            this.btnCheese.UseVisualStyleBackColor = true;
+            this.btnCheese.UseVisualStyleBackColor = false;
             this.btnCheese.Click += new System.EventHandler(this.btnCheese_Click);
             // 
             // btnPommes
             // 
-            this.btnPommes.Location = new System.Drawing.Point(285, 120);
+            this.btnPommes.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnPommes.Location = new System.Drawing.Point(293, 120);
             this.btnPommes.Name = "btnPommes";
             this.btnPommes.Size = new System.Drawing.Size(96, 23);
             this.btnPommes.TabIndex = 43;
             this.btnPommes.Text = "Pommes frites";
-            this.btnPommes.UseVisualStyleBackColor = true;
+            this.btnPommes.UseVisualStyleBackColor = false;
             this.btnPommes.Click += new System.EventHandler(this.btnPommes_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(260, 34);
+            this.label1.Location = new System.Drawing.Point(269, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 13);
             this.label1.TabIndex = 44;
@@ -87,7 +90,7 @@ namespace FastFood
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(44, 90);
+            this.label4.Location = new System.Drawing.Point(41, 73);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(36, 13);
             this.label4.TabIndex = 45;
@@ -96,7 +99,7 @@ namespace FastFood
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(449, 90);
+            this.label5.Location = new System.Drawing.Point(449, 73);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(28, 13);
             this.label5.TabIndex = 46;
@@ -104,83 +107,91 @@ namespace FastFood
             // 
             // btnSok
             // 
+            this.btnSok.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnSok.Location = new System.Drawing.Point(452, 120);
             this.btnSok.Name = "btnSok";
             this.btnSok.Size = new System.Drawing.Size(96, 23);
             this.btnSok.TabIndex = 47;
             this.btnSok.Text = "Sok";
-            this.btnSok.UseVisualStyleBackColor = true;
+            this.btnSok.UseVisualStyleBackColor = false;
             this.btnSok.Click += new System.EventHandler(this.btnSok_Click);
             // 
             // btnVoda
             // 
+            this.btnVoda.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnVoda.Location = new System.Drawing.Point(452, 156);
             this.btnVoda.Name = "btnVoda";
             this.btnVoda.Size = new System.Drawing.Size(96, 23);
             this.btnVoda.TabIndex = 48;
             this.btnVoda.Text = "Voda";
-            this.btnVoda.UseVisualStyleBackColor = true;
+            this.btnVoda.UseVisualStyleBackColor = false;
             this.btnVoda.Click += new System.EventHandler(this.btnVoda_Click);
             // 
             // btnPivo
             // 
+            this.btnPivo.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnPivo.Location = new System.Drawing.Point(452, 197);
             this.btnPivo.Name = "btnPivo";
             this.btnPivo.Size = new System.Drawing.Size(96, 23);
             this.btnPivo.TabIndex = 49;
             this.btnPivo.Text = "Pivo";
-            this.btnPivo.UseVisualStyleBackColor = true;
+            this.btnPivo.UseVisualStyleBackColor = false;
             this.btnPivo.Click += new System.EventHandler(this.btnPivo_Click);
             // 
             // checkedListBox3
             // 
+            this.checkedListBox3.BackColor = System.Drawing.Color.PaleVioletRed;
             this.checkedListBox3.FormattingEnabled = true;
             this.checkedListBox3.Items.AddRange(new object[] {
             "Ketchup",
             "Majoneza"});
-            this.checkedListBox3.Location = new System.Drawing.Point(285, 156);
+            this.checkedListBox3.Location = new System.Drawing.Point(293, 156);
             this.checkedListBox3.Name = "checkedListBox3";
             this.checkedListBox3.Size = new System.Drawing.Size(96, 64);
             this.checkedListBox3.TabIndex = 50;
             // 
             // checkedListBox1
             // 
+            this.checkedListBox1.BackColor = System.Drawing.Color.PaleVioletRed;
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
             "Ketchup",
             "Majoneza",
             "Salata"});
-            this.checkedListBox1.Location = new System.Drawing.Point(36, 156);
+            this.checkedListBox1.Location = new System.Drawing.Point(44, 156);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(96, 64);
             this.checkedListBox1.TabIndex = 51;
             // 
             // checkedListBox2
             // 
+            this.checkedListBox2.BackColor = System.Drawing.Color.PaleVioletRed;
             this.checkedListBox2.FormattingEnabled = true;
             this.checkedListBox2.Items.AddRange(new object[] {
             "Ketchup",
             "Majoneza",
             "Salata"});
-            this.checkedListBox2.Location = new System.Drawing.Point(168, 156);
+            this.checkedListBox2.Location = new System.Drawing.Point(176, 156);
             this.checkedListBox2.Name = "checkedListBox2";
             this.checkedListBox2.Size = new System.Drawing.Size(96, 64);
             this.checkedListBox2.TabIndex = 52;
             // 
             // btnZavrsi
             // 
-            this.btnZavrsi.Location = new System.Drawing.Point(206, 264);
+            this.btnZavrsi.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnZavrsi.Location = new System.Drawing.Point(214, 264);
             this.btnZavrsi.Name = "btnZavrsi";
             this.btnZavrsi.Size = new System.Drawing.Size(175, 45);
             this.btnZavrsi.TabIndex = 54;
             this.btnZavrsi.Text = "Završi narudžbu";
-            this.btnZavrsi.UseVisualStyleBackColor = true;
+            this.btnZavrsi.UseVisualStyleBackColor = false;
             this.btnZavrsi.Click += new System.EventHandler(this.btnZavrsi_Click);
             // 
             // Restoran3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleVioletRed;
             this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.btnZavrsi);
             this.Controls.Add(this.checkedListBox2);

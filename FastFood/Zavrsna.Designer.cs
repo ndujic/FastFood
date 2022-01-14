@@ -36,6 +36,7 @@ namespace FastFood
             this.lblAdresa = new System.Windows.Forms.Label();
             this.txtUnosAdrese = new System.Windows.Forms.TextBox();
             this.cmbNacinPlacanja = new System.Windows.Forms.ComboBox();
+            this.btnIzbornik = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -50,7 +51,7 @@ namespace FastFood
             // 
             // btnNaruci
             // 
-            this.btnNaruci.Location = new System.Drawing.Point(183, 401);
+            this.btnNaruci.Location = new System.Drawing.Point(183, 385);
             this.btnNaruci.Name = "btnNaruci";
             this.btnNaruci.Size = new System.Drawing.Size(75, 23);
             this.btnNaruci.TabIndex = 1;
@@ -60,7 +61,7 @@ namespace FastFood
             // 
             // btnIzlaz
             // 
-            this.btnIzlaz.Location = new System.Drawing.Point(183, 448);
+            this.btnIzlaz.Location = new System.Drawing.Point(183, 451);
             this.btnIzlaz.Name = "btnIzlaz";
             this.btnIzlaz.Size = new System.Drawing.Size(75, 23);
             this.btnIzlaz.TabIndex = 2;
@@ -104,11 +105,23 @@ namespace FastFood
             this.cmbNacinPlacanja.Size = new System.Drawing.Size(121, 21);
             this.cmbNacinPlacanja.TabIndex = 6;
             // 
+            // btnIzbornik
+            // 
+            this.btnIzbornik.Location = new System.Drawing.Point(183, 418);
+            this.btnIzbornik.Name = "btnIzbornik";
+            this.btnIzbornik.Size = new System.Drawing.Size(75, 23);
+            this.btnIzbornik.TabIndex = 7;
+            this.btnIzbornik.Text = "Izbornik";
+            this.btnIzbornik.UseVisualStyleBackColor = true;
+            this.btnIzbornik.Click += new System.EventHandler(this.btnIzbornik_Click);
+            // 
             // Zavrsna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(294, 532);
+            this.Controls.Add(this.btnIzbornik);
             this.Controls.Add(this.cmbNacinPlacanja);
             this.Controls.Add(this.txtUnosAdrese);
             this.Controls.Add(this.lblAdresa);
@@ -134,5 +147,6 @@ namespace FastFood
         private System.Windows.Forms.Label lblAdresa;
         private System.Windows.Forms.TextBox txtUnosAdrese;
         private System.Windows.Forms.ComboBox cmbNacinPlacanja;
+        private System.Windows.Forms.Button btnIzbornik;
     }
 }

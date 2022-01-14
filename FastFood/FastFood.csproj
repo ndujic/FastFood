@@ -90,6 +90,9 @@
     <Compile Include="Zavrsna.Designer.cs">
       <DependentUpon>Zavrsna.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Dostavljac.resx">
+      <DependentUpon>Dostavljac.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

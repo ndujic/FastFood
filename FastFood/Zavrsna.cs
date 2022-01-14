@@ -60,5 +60,12 @@ namespace FastFood
         {
             Application.Exit();
         }
+
+        private void btnIzbornik_Click(object sender, EventArgs e)
+        {
+            Form1 izbornik = new Form1();
+            this.Hide();
+            izbornik.Show();
+        }
     }
 }
