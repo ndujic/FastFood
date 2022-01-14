@@ -53,5 +53,12 @@ namespace FastFood
             Zavrsna zavrsna = new Zavrsna();
             
         }
+
+        private void btnPogledajLokacijuDostavljaca_Click(object sender, EventArgs e)
+        {
+            Dostavljac dostavljac = new Dostavljac();
+            this.Hide();
+            dostavljac.Show();
+        }
     }
 }

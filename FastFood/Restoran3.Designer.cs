@@ -41,7 +41,6 @@ namespace FastFood
             this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
-            this.btnJosRest = new System.Windows.Forms.Button();
             this.btnZavrsi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -168,21 +167,11 @@ namespace FastFood
             this.checkedListBox2.Size = new System.Drawing.Size(96, 64);
             this.checkedListBox2.TabIndex = 52;
             // 
-            // btnJosRest
-            // 
-            this.btnJosRest.Location = new System.Drawing.Point(168, 268);
-            this.btnJosRest.Name = "btnJosRest";
-            this.btnJosRest.Size = new System.Drawing.Size(85, 45);
-            this.btnJosRest.TabIndex = 53;
-            this.btnJosRest.Text = "Odaberi još restorana";
-            this.btnJosRest.UseVisualStyleBackColor = true;
-            this.btnJosRest.Click += new System.EventHandler(this.btnJosRest_Click);
-            // 
             // btnZavrsi
             // 
-            this.btnZavrsi.Location = new System.Drawing.Point(296, 268);
+            this.btnZavrsi.Location = new System.Drawing.Point(206, 264);
             this.btnZavrsi.Name = "btnZavrsi";
-            this.btnZavrsi.Size = new System.Drawing.Size(85, 45);
+            this.btnZavrsi.Size = new System.Drawing.Size(175, 45);
             this.btnZavrsi.TabIndex = 54;
             this.btnZavrsi.Text = "Završi narudžbu";
             this.btnZavrsi.UseVisualStyleBackColor = true;
@@ -194,7 +183,6 @@ namespace FastFood
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.btnZavrsi);
-            this.Controls.Add(this.btnJosRest);
             this.Controls.Add(this.checkedListBox2);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.checkedListBox3);
@@ -227,7 +215,6 @@ namespace FastFood
         private System.Windows.Forms.CheckedListBox checkedListBox3;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.CheckedListBox checkedListBox2;
-        private System.Windows.Forms.Button btnJosRest;
         private System.Windows.Forms.Button btnZavrsi;
     }
 }

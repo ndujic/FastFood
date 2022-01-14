@@ -35,7 +35,6 @@ namespace FastFood
             this.btnHamb = new System.Windows.Forms.Button();
             this.btnCheese = new System.Windows.Forms.Button();
             this.btnPommes = new System.Windows.Forms.Button();
-            this.btnJosRest = new System.Windows.Forms.Button();
             this.btnZavrsi = new System.Windows.Forms.Button();
             this.btnSok = new System.Windows.Forms.Button();
             this.btnVoda = new System.Windows.Forms.Button();
@@ -106,21 +105,11 @@ namespace FastFood
             this.btnPommes.UseVisualStyleBackColor = true;
             this.btnPommes.Click += new System.EventHandler(this.btnPommes_Click);
             // 
-            // btnJosRest
-            // 
-            this.btnJosRest.Location = new System.Drawing.Point(186, 250);
-            this.btnJosRest.Name = "btnJosRest";
-            this.btnJosRest.Size = new System.Drawing.Size(80, 49);
-            this.btnJosRest.TabIndex = 35;
-            this.btnJosRest.Text = "Odaberi još restorana";
-            this.btnJosRest.UseVisualStyleBackColor = true;
-            this.btnJosRest.Click += new System.EventHandler(this.btnJosRest_Click);
-            // 
             // btnZavrsi
             // 
-            this.btnZavrsi.Location = new System.Drawing.Point(317, 250);
+            this.btnZavrsi.Location = new System.Drawing.Point(224, 258);
             this.btnZavrsi.Name = "btnZavrsi";
-            this.btnZavrsi.Size = new System.Drawing.Size(80, 49);
+            this.btnZavrsi.Size = new System.Drawing.Size(173, 49);
             this.btnZavrsi.TabIndex = 36;
             this.btnZavrsi.Text = "Završi narudžbu";
             this.btnZavrsi.UseVisualStyleBackColor = true;
@@ -203,7 +192,6 @@ namespace FastFood
             this.Controls.Add(this.btnVoda);
             this.Controls.Add(this.btnSok);
             this.Controls.Add(this.btnZavrsi);
-            this.Controls.Add(this.btnJosRest);
             this.Controls.Add(this.btnPommes);
             this.Controls.Add(this.btnCheese);
             this.Controls.Add(this.btnHamb);
@@ -225,7 +213,6 @@ namespace FastFood
         private System.Windows.Forms.Button btnHamb;
         private System.Windows.Forms.Button btnCheese;
         private System.Windows.Forms.Button btnPommes;
-        private System.Windows.Forms.Button btnJosRest;
         private System.Windows.Forms.Button btnZavrsi;
         private System.Windows.Forms.Button btnSok;
         private System.Windows.Forms.Button btnVoda;

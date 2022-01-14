@@ -34,6 +34,9 @@ namespace FastFood
             this.btnRes3 = new System.Windows.Forms.Button();
             this.btnRes4 = new System.Windows.Forms.Button();
             this.btnNaruci = new System.Windows.Forms.Button();
+            this.lblKodNarudzbe = new System.Windows.Forms.Label();
+            this.btnPogledajLokacijuDostavljaca = new System.Windows.Forms.Button();
+            this.txtKodNarudzbe = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnRes1
@@ -90,11 +93,40 @@ namespace FastFood
             this.btnNaruci.Text = "Naruči!";
             this.btnNaruci.UseVisualStyleBackColor = true;
             // 
+            // lblKodNarudzbe
+            // 
+            this.lblKodNarudzbe.AutoSize = true;
+            this.lblKodNarudzbe.Location = new System.Drawing.Point(71, 423);
+            this.lblKodNarudzbe.Name = "lblKodNarudzbe";
+            this.lblKodNarudzbe.Size = new System.Drawing.Size(136, 13);
+            this.lblKodNarudzbe.TabIndex = 6;
+            this.lblKodNarudzbe.Text = "Upišite kod vaše narudžbe:";
+            // 
+            // btnPogledajLokacijuDostavljaca
+            // 
+            this.btnPogledajLokacijuDostavljaca.Location = new System.Drawing.Point(34, 472);
+            this.btnPogledajLokacijuDostavljaca.Name = "btnPogledajLokacijuDostavljaca";
+            this.btnPogledajLokacijuDostavljaca.Size = new System.Drawing.Size(223, 23);
+            this.btnPogledajLokacijuDostavljaca.TabIndex = 7;
+            this.btnPogledajLokacijuDostavljaca.Text = "Pogledaj lokaciju dostavljača";
+            this.btnPogledajLokacijuDostavljaca.UseVisualStyleBackColor = true;
+            this.btnPogledajLokacijuDostavljaca.Click += new System.EventHandler(this.btnPogledajLokacijuDostavljaca_Click);
+            // 
+            // txtKodNarudzbe
+            // 
+            this.txtKodNarudzbe.Location = new System.Drawing.Point(34, 446);
+            this.txtKodNarudzbe.Name = "txtKodNarudzbe";
+            this.txtKodNarudzbe.Size = new System.Drawing.Size(223, 20);
+            this.txtKodNarudzbe.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(285, 439);
+            this.ClientSize = new System.Drawing.Size(294, 532);
+            this.Controls.Add(this.txtKodNarudzbe);
+            this.Controls.Add(this.btnPogledajLokacijuDostavljaca);
+            this.Controls.Add(this.lblKodNarudzbe);
             this.Controls.Add(this.btnNaruci);
             this.Controls.Add(this.btnRes4);
             this.Controls.Add(this.btnRes3);
@@ -105,6 +137,7 @@ namespace FastFood
             this.Text = "Fast Food";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -115,6 +148,9 @@ namespace FastFood
         private System.Windows.Forms.Button btnRes3;
         private System.Windows.Forms.Button btnRes4;
         private System.Windows.Forms.Button btnNaruci;
+        private System.Windows.Forms.Label lblKodNarudzbe;
+        private System.Windows.Forms.Button btnPogledajLokacijuDostavljaca;
+        private System.Windows.Forms.TextBox txtKodNarudzbe;
     }
 }
 

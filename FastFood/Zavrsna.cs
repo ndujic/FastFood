@@ -49,5 +49,16 @@ namespace FastFood
         {
 
         }
+
+        private void btnNaruci_Click(object sender, EventArgs e)
+        {
+            string narudzba = richTextBox1.Text + "\nAdresa dostave: " + txtUnosAdrese.Text + "\nNačin plaćanja: " + cmbNacinPlacanja.SelectedItem.ToString();
+            MessageBox.Show(narudzba);
+        }
+
+        private void btnIzlaz_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

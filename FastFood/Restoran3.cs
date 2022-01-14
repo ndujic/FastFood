@@ -62,29 +62,24 @@ namespace FastFood
 
         private void btnSok_Click(object sender, EventArgs e)
         {
-            res1.Add("\nSok");
+            res1.Add("Sok");
         }
 
         private void btnVoda_Click(object sender, EventArgs e)
         {
-            res1.Add("\nVoda");
+            res1.Add("Voda");
         }
 
         private void btnPivo_Click(object sender, EventArgs e)
         {
-            res1.Add("\nPivo");
-        }
-
-        private void btnJosRest_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form1 pocetna = new Form1();
-            pocetna.Show();
+            res1.Add("Pivo");
         }
 
         private void btnZavrsi_Click(object sender, EventArgs e)
         {
-
+            Random rnd = new Random();
+            int brojNarudzbe = rnd.Next(100, 1000);
+            zavrsna.richTextBox1.Text += $"Restoran 3\nBroj vaše narudžbe: {brojNarudzbe}\n\n";
             foreach (string el in res1)
             {
                 zavrsna.richTextBox1.Text += el + "\n";
