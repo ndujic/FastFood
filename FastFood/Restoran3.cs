@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace FastFood
@@ -24,8 +19,11 @@ namespace FastFood
 
         }
 
+        int ukupnaCijena = 0;
+
         private void btnHamb_Click(object sender, EventArgs e)
         {
+            ukupnaCijena += 42;
             string s = "Hamburger\n";
             List<string> listaHamb = checkedListBox1.CheckedItems.OfType<string>().ToList();
             foreach (string el in listaHamb)
@@ -38,6 +36,7 @@ namespace FastFood
 
         private void btnCheese_Click(object sender, EventArgs e)
         {
+            ukupnaCijena += 45;
             string s = "Cheeseburger\n";
             List<string> listaCheese = checkedListBox2.CheckedItems.OfType<string>().ToList();
             foreach (string el in listaCheese)
@@ -50,6 +49,7 @@ namespace FastFood
 
         private void btnPommes_Click(object sender, EventArgs e)
         {
+            ukupnaCijena += 25;
             string s = "Pommes frites\n";
             List<string> listaPommes = checkedListBox3.CheckedItems.OfType<string>().ToList();
             foreach (string el in listaPommes)
@@ -62,16 +62,19 @@ namespace FastFood
 
         private void btnSok_Click(object sender, EventArgs e)
         {
+            ukupnaCijena += 15;
             res1.Add("Sok");
         }
 
         private void btnVoda_Click(object sender, EventArgs e)
         {
+            ukupnaCijena += 10;
             res1.Add("Voda");
         }
 
         private void btnPivo_Click(object sender, EventArgs e)
         {
+            ukupnaCijena += 20;
             res1.Add("Pivo");
         }
 
@@ -84,6 +87,7 @@ namespace FastFood
             {
                 zavrsna.richTextBox1.Text += el + "\n";
             }
+            zavrsna.richTextBox1.Text += $"\nUkupna cijena: {ukupnaCijena}";
             this.Close();
             zavrsna.Show();
         }

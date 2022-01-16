@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace FastFood
@@ -26,7 +20,7 @@ namespace FastFood
             Restoran4 r4 = new Restoran4();
 
             List<string> listaa = new List<string>();
-            foreach(var item in r1.res1)
+            foreach (var item in r1.res1)
             {
                 richTextBox1.Text += item + " ";
             }
