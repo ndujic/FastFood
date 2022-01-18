@@ -49,9 +49,18 @@ namespace FastFood
 
         private void btnPogledajLokacijuDostavljaca_Click(object sender, EventArgs e)
         {
+            while(txtKodNarudzbe.Text == "")
+            {
+                MessageBox.Show("Morate upisati kod vaše narudžbe!");
+                break;
+            }
+            if (txtKodNarudzbe.Text != "")
+            { 
             Dostavljac dostavljac = new Dostavljac();
             this.Hide();
             dostavljac.Show();
+            }
+            
         }
     }
 }

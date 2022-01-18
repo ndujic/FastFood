@@ -43,11 +43,11 @@ namespace FastFood
             // 
             this.btnRes1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnRes1.Location = new System.Drawing.Point(85, 68);
-            this.btnRes1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRes1.Margin = new System.Windows.Forms.Padding(2);
             this.btnRes1.Name = "btnRes1";
             this.btnRes1.Size = new System.Drawing.Size(113, 37);
             this.btnRes1.TabIndex = 0;
-            this.btnRes1.Text = "Restoran 1";
+            this.btnRes1.Text = "Fast Food Buco";
             this.btnRes1.UseVisualStyleBackColor = false;
             this.btnRes1.Click += new System.EventHandler(this.btnRes1_Click);
             // 
@@ -55,11 +55,11 @@ namespace FastFood
             // 
             this.btnRes2.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.btnRes2.Location = new System.Drawing.Point(85, 127);
-            this.btnRes2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRes2.Margin = new System.Windows.Forms.Padding(2);
             this.btnRes2.Name = "btnRes2";
             this.btnRes2.Size = new System.Drawing.Size(113, 37);
             this.btnRes2.TabIndex = 1;
-            this.btnRes2.Text = "Restoran 2";
+            this.btnRes2.Text = "Fast Food Pistaccio";
             this.btnRes2.UseVisualStyleBackColor = false;
             this.btnRes2.Click += new System.EventHandler(this.btnRes2_Click);
             // 
@@ -67,11 +67,11 @@ namespace FastFood
             // 
             this.btnRes3.BackColor = System.Drawing.Color.PaleVioletRed;
             this.btnRes3.Location = new System.Drawing.Point(85, 190);
-            this.btnRes3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRes3.Margin = new System.Windows.Forms.Padding(2);
             this.btnRes3.Name = "btnRes3";
             this.btnRes3.Size = new System.Drawing.Size(113, 37);
             this.btnRes3.TabIndex = 2;
-            this.btnRes3.Text = "Restoran 3";
+            this.btnRes3.Text = "Fast Food XXL";
             this.btnRes3.UseVisualStyleBackColor = false;
             this.btnRes3.Click += new System.EventHandler(this.btnRes3_Click);
             // 
@@ -79,11 +79,11 @@ namespace FastFood
             // 
             this.btnRes4.BackColor = System.Drawing.Color.Gold;
             this.btnRes4.Location = new System.Drawing.Point(85, 255);
-            this.btnRes4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRes4.Margin = new System.Windows.Forms.Padding(2);
             this.btnRes4.Name = "btnRes4";
             this.btnRes4.Size = new System.Drawing.Size(113, 37);
             this.btnRes4.TabIndex = 3;
-            this.btnRes4.Text = "Restoran 4";
+            this.btnRes4.Text = "Fast Food Brko";
             this.btnRes4.UseVisualStyleBackColor = false;
             this.btnRes4.Click += new System.EventHandler(this.btnRes4_Click);
             // 
@@ -91,7 +91,7 @@ namespace FastFood
             // 
             this.btnNaruci.BackColor = System.Drawing.Color.OldLace;
             this.btnNaruci.Location = new System.Drawing.Point(97, 323);
-            this.btnNaruci.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNaruci.Margin = new System.Windows.Forms.Padding(2);
             this.btnNaruci.Name = "btnNaruci";
             this.btnNaruci.Size = new System.Drawing.Size(86, 32);
             this.btnNaruci.TabIndex = 5;
@@ -141,7 +141,7 @@ namespace FastFood
             this.Controls.Add(this.btnRes2);
             this.Controls.Add(this.btnRes1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Fast Food";
             this.Load += new System.EventHandler(this.Form1_Load);

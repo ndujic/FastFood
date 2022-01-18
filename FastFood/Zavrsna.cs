@@ -37,17 +37,34 @@ namespace FastFood
                 richTextBox1.Text += item + " ";
             }
 
+
+
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
-
-        private void btnNaruci_Click(object sender, EventArgs e)
+      
+    private void btnNaruci_Click(object sender, EventArgs e)
         {
-            string narudzba = richTextBox1.Text + "\nAdresa dostave: " + txtUnosAdrese.Text + "\nNačin plaćanja: " + cmbNacinPlacanja.SelectedItem.ToString();
+            while (txtUnosAdrese.Text == "")
+            {
+                MessageBox.Show("Morate unijeti vašu adresu!");
+                break;
+            }
+            while (cmbNacinPlacanja.SelectedIndex != 0)
+            {
+                MessageBox.Show("Morate odabrati način plaćanja!");
+                break;
+            }
+            if (txtUnosAdrese.Text != "" && cmbNacinPlacanja.SelectedIndex == 0)
+            { 
+            string narudzba = richTextBox1.Text + "\nAdresa dostave: " + txtUnosAdrese.Text + "\nNačin plaćanja: " + cmbNacinPlacanja.SelectedItem.ToString() + "\nOkvirno vrijeme dostave: 30-40 min";
             MessageBox.Show(narudzba);
+            }
+            
+
         }
 
         private void btnIzlaz_Click(object sender, EventArgs e)
@@ -60,6 +77,18 @@ namespace FastFood
             Form1 izbornik = new Form1();
             this.Hide();
             izbornik.Show();
+        }
+
+        private void txtUnosAdrese_TextChanged(object sender, EventArgs e)
+        {
+
+          
+
+        }
+
+        private void cmbNacinPlacanja_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

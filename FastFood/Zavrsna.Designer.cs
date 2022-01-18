@@ -42,7 +42,7 @@ namespace FastFood
             // richTextBox1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(44, 47);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(201, 305);
             this.richTextBox1.TabIndex = 0;
@@ -93,6 +93,7 @@ namespace FastFood
             this.txtUnosAdrese.Name = "txtUnosAdrese";
             this.txtUnosAdrese.Size = new System.Drawing.Size(121, 20);
             this.txtUnosAdrese.TabIndex = 5;
+            this.txtUnosAdrese.TextChanged += new System.EventHandler(this.txtUnosAdrese_TextChanged);
             // 
             // cmbNacinPlacanja
             // 
@@ -104,6 +105,7 @@ namespace FastFood
             this.cmbNacinPlacanja.Name = "cmbNacinPlacanja";
             this.cmbNacinPlacanja.Size = new System.Drawing.Size(121, 21);
             this.cmbNacinPlacanja.TabIndex = 6;
+            this.cmbNacinPlacanja.SelectedIndexChanged += new System.EventHandler(this.cmbNacinPlacanja_SelectedIndexChanged);
             // 
             // btnIzbornik
             // 
@@ -129,7 +131,7 @@ namespace FastFood
             this.Controls.Add(this.btnIzlaz);
             this.Controls.Add(this.btnNaruci);
             this.Controls.Add(this.richTextBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Zavrsna";
             this.Text = "Narudžba";
             this.Load += new System.EventHandler(this.Zavrsna_Load);
