@@ -20,7 +20,7 @@ namespace FastFood
         {
             Random rnd = new Random();
             int brojNarudzbe = rnd.Next(100, 1000);
-            zavrsna.richTextBox1.Text += $"Restoran 1\nBroj vaše narudžbe: {brojNarudzbe}\n\n";
+            zavrsna.richTextBox1.Text += $"Fast Food Buco\nBroj vaše narudžbe: {brojNarudzbe}\n\n";
             foreach (string el in res1)
             {
                 zavrsna.richTextBox1.Text += el + "\n";

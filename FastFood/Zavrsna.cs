@@ -53,12 +53,12 @@ namespace FastFood
                 MessageBox.Show("Morate unijeti vašu adresu!");
                 break;
             }
-            while (cmbNacinPlacanja.SelectedIndex != 0)
+            if (cmbNacinPlacanja.SelectedItem == null)
             {
                 MessageBox.Show("Morate odabrati način plaćanja!");
-                break;
             }
-            if (txtUnosAdrese.Text != "" && cmbNacinPlacanja.SelectedIndex == 0)
+
+            if (txtUnosAdrese.Text != "" && cmbNacinPlacanja.SelectedItem != null)
             { 
             string narudzba = richTextBox1.Text + "\nAdresa dostave: " + txtUnosAdrese.Text + "\nNačin plaćanja: " + cmbNacinPlacanja.SelectedItem.ToString() + "\nOkvirno vrijeme dostave: 30-40 min";
             MessageBox.Show(narudzba);
